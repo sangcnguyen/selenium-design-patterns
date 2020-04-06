@@ -9,7 +9,6 @@ import org.testng.annotations.BeforeTest;
 public abstract class TestTemplate {
     public WebDriver webDriver;
 
-
     @BeforeTest
     public void beforeTest() {
         WebDriverManager.chromedriver().setup();
