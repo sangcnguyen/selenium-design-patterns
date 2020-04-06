@@ -8,7 +8,7 @@ import template.PageTemplate;
 public class LoginPage extends PageTemplate implements LoginStrategy {
 
     public LoginPage(WebDriver webDriver) {
-        initElement(webDriver);
+        initElements(webDriver);
         setPath("/login");
     }
 

@@ -8,7 +8,7 @@ public abstract class PageTemplate {
     private String PATH;
     private WebDriver webDriver;
 
-    public void initElement(WebDriver webDriver) {
+    public void initElements(WebDriver webDriver) {
         this.webDriver = webDriver;
         PageFactory.initElements(webDriver, this);
     }

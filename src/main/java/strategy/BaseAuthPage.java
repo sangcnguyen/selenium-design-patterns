@@ -8,7 +8,7 @@ import template.PageTemplate;
 public class BaseAuthPage extends PageTemplate implements LoginStrategy {
 
     public BaseAuthPage(WebDriver webDriver) {
-        initElement(webDriver);
+        initElements(webDriver);
         setPath("/basic_auth");
     }
 
