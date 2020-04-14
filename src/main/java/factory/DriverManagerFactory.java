@@ -1,13 +1,12 @@
 package factory;
 
 public class DriverManagerFactory {
-
     private DriverManagerFactory() {
     }
 
-    public static DriverManager getManager(DriverType driverType) {
+    public static DriverManager getManager(String driverType) {
         DriverManager driverManager;
-        if (driverType == DriverType.CHROME) {
+        if (driverType.contains(DriverType.getLocalChrome())) {
             driverManager = new ChromeDriverManager();
         } else {
             driverManager = new FirefoxDriverManager();

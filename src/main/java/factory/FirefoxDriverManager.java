@@ -7,6 +7,6 @@ public class FirefoxDriverManager extends DriverManager {
 
     protected void createDriver() {
         WebDriverManager.firefoxdriver().setup();
-        webDriver = new FirefoxDriver();
+        webDriver.set(new FirefoxDriver());
     }
 }

@@ -7,6 +7,6 @@ public class ChromeDriverManager extends DriverManager {
 
     protected void createDriver() {
         WebDriverManager.chromedriver().setup();
-        webDriver = new ChromeDriver();
+        webDriver.set(new ChromeDriver());
     }
 }

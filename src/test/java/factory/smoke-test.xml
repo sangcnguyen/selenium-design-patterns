@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Smoke test suite" parallel="tests" thread-count="4">
+    <test name="Test on Chrome">
+        <parameter name="browser" value="firefox"/>
+        <classes>
+            <class name="factory.LoginWithParallelBrowserTest"/>
+        </classes>
+    </test>
+
+    <test name="Test on Firefox">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="factory.LoginWithParallelBrowserTest"/>
+        </classes>
+    </test>
+</suite>
