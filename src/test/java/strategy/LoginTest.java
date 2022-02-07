@@ -4,7 +4,6 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import template.TestTemplate;
 
-
 public class LoginTest extends TestTemplate {
 
     @Test

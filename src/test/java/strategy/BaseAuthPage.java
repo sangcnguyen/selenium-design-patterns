@@ -15,7 +15,6 @@ public class BaseAuthPage extends PageTemplate implements LoginStrategy {
     @FindBy(css = ".example > p")
     private WebElement flashMessage;
 
-
     public void loginAs(User user) {
         setBaseUrl("http://" + user.getUsername() + ":" + user.getPassword() + "@the-internet.herokuapp.com");
         goToPage();
