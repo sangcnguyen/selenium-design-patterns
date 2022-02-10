@@ -1,0 +1,201 @@
+_pathtag,_recordid,English Text,Legal Approved,french text,italian text,french translationStatus,italian translationStatus
+STR/ALL/MODES,STR_ALL_MODES,All Modes CHANGE,TRUE,Tous les modes CHANGE,All Modes CHANGE,3,2
+STR/ARCADE,STR_ARCADE,Arcade,FALSE,Arcade,Arcade,2,2
+STR/AUTOMATIC,STR_AUTOMATIC,Automatic,TRUE,Automatique,Automatica,2,2
+STR/BACK,STR_BACK,Back CHANGE,TRUE,Retour,Indietro,2,3
+STR/BALANCE,STR_BALANCE,BALANCE,TRUE,ÉQUILIBRE,STABILITÀ,2,3
+STR/BTH/MULTI,STR_BTH_MULTI,Multiplayer,TRUE,Multi-joueurs,Più giocatori,3,3
+STR/BTH/NOHOSTS,STR_BTH_NOHOSTS,No hosts found.,TRUE,Impossible de un hôte.,Nessun host.,3,2
+STR/CAR,STR_CAR,Car,TRUE,Voiture,Vettura,2,3
+STR/CARS,STR_CARS,Cars,FALSE,Voitures,Vetture,3,3
+STR/CHALDESC/CHAS,STR_CHALDESC_CHAS,Overtake the other car before it passes the finish line.,FALSE,Doublez l'autre voiture avant qu'elle ne passe la ligne d'arrivée.,Supera l'altra vettura prima che passi il traguardo.,2,2
+STR/CHALDESC/CHEC,STR_CHALDESC_CHEC,Earn a point for every Checkpoint passed. Try to beat the target score.,FALSE,Marquez un point à chaque fois que vous passez un point de contrôle. Essayez de battre le score donné.,Ottieni un punto per ogni checkpoint superato. Cerca di battere il punteggio limite.,3,2
+STR/CHAL/FAIL,STR_CHAL_FAIL,CHALLENGE FAILED,FALSE,ÉCHEC AU DÉFI ,SFIDA FALLITA,3,3
+STR/CHASE/2,STR_CHASE_2,Chase 2,FALSE,Poursuite 2,Inseguimento 2,3,2
+STR/CH/COLOR,STR_CH_COLOR,Change Color,FALSE,Changer couleur,Cambia colore,3,2
+STR/CONNECTING,STR_CONNECTING,Connecting,FALSE,Connexion en cours,Connessione,2,3
+STR/CONTESTANTS,STR_CONTESTANTS,CONTESTANTS:,FALSE,CONCURRENTS : ,CONCORRENTI:,2,3
+STR/CORNER,STR_CORNER,CORNERING,FALSE,VIRAGE,T. DI STRADA,3,2
+STR/CP,STR_CP,Checkpoint,FALSE,Point de contrôle,Checkpoint,2,3
+STR/CRED/DOCCORD,STR_CRED_DOCCORD,Documentation Co-ordinator,FALSE,Coordonnateur De Documentation,Coordinatore Della Documentazione,3,2
+STR/CRED/GAMEPLAY,STR_CRED_GAMEPLAY,Gameplay Coordinator,FALSE,Responsable gameplay,Coordinatore Gameplay,3,2
+STR/CRED/ITMAN,STR_CRED_ITMAN,IT Manager,FALSE,Responsable IT,Responsabile IT,3,2
+STR/CRED/LART,STR_CRED_LART,Lead Artist,FALSE,Artiste principal,Primo artista,3,3
+STR/CRED/MUS,STR_CRED_MUS,Music,FALSE,Musique,Musica,3,3
+STR/CRED/PRODASS,STR_CRED_PRODASS,Assistant Producer,FALSE,Producteur adjoint,Assistente alla produzione,2,2
+STR/CRED/PRODDES,STR_CRED_PRODDES,Producer/Designer,FALSE,Producteur/Concepteur,Produttore/Designer,2,2
+STR/CRED/PROD/MAN,STR_CRED_PROD_MAN,Production Manager,FALSE,Directeur de Production,Responsabile di Produzione,3,3
+STR/CRED/SFX,STR_CRED_SFX,Sound,FALSE,Son,Audio,2,3
+STR/CRITICAL/BATTERY,STR_CRITICAL_BATTERY,Battery level is critical.,FALSE,Pile au niveau critique.,La batteria è esaurita.,2,2
+STR/CU/OFF,STR_CU_OFF,Catch up Off,FALSE,Poursuite désactivée,Recupero Off,3,2
+STR/CU/ON,STR_CU_ON,Catch up On,FALSE,Poursuite activée,Recupero On,3,3
+STR/DATA,STR_DATA,Data,FALSE,Données,Dati,3,2
+STR/DEFAULTS,STR_DEFAULTS,Defaults,FALSE,Paramètres par défaut,Predefiniti,2,3
+STR/DEL/REP,STR_DEL_REP,Deleting this Replay will permanently remove it from your device.,FALSE,"Si vous supprimez ce ralenti, il sera définitivement effacé de votre iPhone/iPod touch.","Se cancelli questo replay, lo eliminerai dal tuo iPhone/iPod touch.",3,3
+STR/DEV,STR_DEV,Developer,FALSE,Développeur,Sviluppatore,2,3
+STR/DIFFI,STR_DIFFI,Difficulty,FALSE,Difficulté,Difficoltà,3,3
+STR/DNF,STR_DNF,Did not finish,FALSE,N'a pas terminé,Non hai finito,2,3
+STR/EDIT,STR_EDIT,Edit,FALSE,Modifier,Modifica,3,3
+STR/ERROR,STR_ERROR,Error,FALSE,Erreur,Errore,2,2
+STR/EXECPROD,STR_EXECPROD,Managing Director,FALSE,Producteur exécutif,Produttore esecutivo,3,2
+STR/FINISH,STR_FINISH,FINISH!,FALSE,ARRIVÉE !,FINE!,2,2
+STR/FIRST,STR_FIRST,1st,FALSE,1ère,1°,3,3
+STR/GAME/VOL,STR_GAME_VOL,Game Volume,FALSE,Volume jeu,Volume gioco,3,2
+STR/HARD,STR_HARD,Hard,FALSE,Difficile,Difficile,3,3
+STR/HUD/GOAL,STR_HUD_GOAL,GOAL,FALSE,ARRIVÉE,TRAGUARDO,2,2
+STR/HUD/KPH,STR_HUD_KPH,kph,FALSE,km/h,Km/h,3,2
+STR/HUD/POSITION,STR_HUD_POSITION,POSITION: %d,FALSE,POSITION : %d,PIAZZAMENTO: %d,2,3
+STR/INBOX,STR_INBOX,Go To Inbox,FALSE,Aller à boîte de réception,Vai a Inbox,3,2
+STR/JB/CHALLENGE,STR_JB_CHALLENGE,Challenge,FALSE,Défi,Sfida,3,3
+STR/JOIN/GAME,STR_JOIN_GAME,Join Game,FALSE,Rejoindre partie,Partecipa,2,2
+STR/JOIN/SYNC,STR_JOIN_SYNC,Join,FALSE,Rejoindre,Partecipa,2,3
+STR/LICENSE,STR_LICENSE,asdf,FALSE,asdf,asdf,2,2
+STR/LOAD,STR_LOAD,Load,FALSE,Charger,Carica,3,2
+STR/L/ITALIANO,STR_L_ITALIANO,Italiano,FALSE,Italiano,Italiano,2,3
+STR/L/SPANISH,STR_L_SPANISH,Español,FALSE,Español,Español,2,3
+STR/MAINMENU,STR_MAINMENU,Main Menu,FALSE,Menu principal,Menu principale,3,3
+STR/MODE,STR_MODE,Mode,FALSE,Mode,Modalità,3,2
+STR/MSG/BTH/DISCONNECTED,STR_MSG_BTH_DISCONNECTED,You have been disconnected from host.,FALSE,Vous n'êtes plus connecté à l'hôte.,Ti sei disconnesso dall'host.,3,2
+STR/MSG/BTH/FULL,STR_MSG_BTH_FULL,Game is full. Try later.,FALSE,Le jeu est complet. Essayez plus tard.,Partita al completo. Riprova più tardi.,3,2
+STR/MSG/BTH/HOST/LEAVE,STR_MSG_BTH_HOST_LEAVE,Are you sure you want to leave the lobby? This will disconnect all players.,FALSE,Voulez vous vraiment quitter le foyer ? Tous les autres joueurs seront déconnectés.,Vuoi abbandonare la partita? Tutti i giocatori verranno scollegati.,2,2
+STR/MSG/DISCARD,STR_MSG_DISCARD,Discard changes?,FALSE,Supprimer les modifications ?,Elimini modifiche?,3,3
+STR/MSG/NO/MEMORY,STR_MSG_NO_MEMORY,Not enough free memory to run the game. Try rebooting your device.,FALSE,Pas assez de mémoire libre pour exécuter le jeu. Essayez de redémarrer votre Gizmondo.,Memoria insufficiente per giocare. Prova a riavviare il Gizmondo,3,2
+STR/MSG/RP/SAVED,STR_MSG_RP_SAVED,Replay saved.,FALSE,Ralenti enregistré.,Replay salvato,2,3
+STR/MSG/SAVE/FULL,STR_MSG_SAVE_FULL,There is not enough space on your device to save file. %dKB of space needed.,FALSE,Votre Gizmondo ne dispose pas d'assez d'espace pour enregistrer le fichier. Il faut %dKo.,Sul tuo Gizmondo non c'è spazio per salvare i dati: servono %dKB liberi.,2,2
+STR/MSG/SD/REMOVED,STR_MSG_SD_REMOVED,"The SD card has been removed, please reinsert or press the Stop button to quit the game and return to the Home page.",FALSE,"La carte SD a été retirée, veuillez la replacer ou appuyez sur le bouton Stop pour quitter le jeu et revenir à la page d'accueil.",La scheda SD è stata rimossa. Inseriscila o premi il pulsante Stop per uscire dal gioco e tornare alla Home page.,2,3
+STR/MSG/SV/RP/FAIL,STR_MSG_SV_RP_FAIL,Failed to save replay.,FALSE,Echec de l'enregistrement du ralenti.,Impossibile salvare replay,3,2
+STR/MSG/SYNC/COMPLETE,STR_MSG_SYNC_COMPLETE,Synchronization complete.,FALSE,Synchronisation terminée.,Sincronizzazione completa.,2,3
+STR/MSG/SYNC/WARNING,STR_MSG_SYNC_WARNING,Synchronizing data will overwrite your current highscores.,FALSE,Les données de la synchronisation vont écraser vos meilleurs scores actuels.,La sincronizzazione dei dati sovrascriverà i tuoi record.,3,3
+STR/MUS/VOL,STR_MUS_VOL,Music Volume,FALSE,Volume musique,Volume musica,2,2
+STR/NEXT/SKIN,STR_NEXT_SKIN,Next Skin,FALSE,Apparence suivante,Skin succ.,3,2
+STR/NORMAL,STR_NORMAL,Normal,FALSE,Normal,Normale,3,3
+STR/ON,STR_ON,On,FALSE,Activé,On,2,3
+STR/OPTIONS,STR_OPTIONS,Options,FALSE,Options,Opzioni,2,3
+STR/OUTOFTIME,STR_OUTOFTIME,Out of time,FALSE,Temps écoulé,Tempo scaduto,3,3
+STR/PACE/OFF,STR_PACE_OFF,Pace Car Off,FALSE,Pace-car désactivée,Pacecar Off,2,3
+STR/PACE/ON,STR_PACE_ON,Pace Car On,FALSE,Pace-car activée,Pacecar On,2,2
+STR/PAUSED,STR_PAUSED,Paused,FALSE,Partie en pause,In pausa,3,3
+STR/PERFECTION,STR_PERFECTION,Perfection,FALSE,Perfection,Perfezione,2,2
+STR/PERF/1,STR_PERF_1,Perfection,FALSE,Perfection,Perfezione,2,2
+STR/PLAY,STR_PLAY,Play,FALSE,Jouer,Gioca,3,2
+STR/RACE/AGAIN,STR_RACE_AGAIN,Race Again,FALSE,Refaire une course,Ricomincia,2,3
+STR/RECORDS,STR_RECORDS,Records,FALSE,Records,Record,3,2
+STR/REPLAY,STR_REPLAY,Replay,FALSE,Ralenti,Replay,3,3
+STR/RESTART,STR_RESTART,Restart,FALSE,Recommencer,Ricomincia,2,2
+STR/REVERSE,STR_REVERSE,Reverse,FALSE,Marche arrière,Retromarcia,3,3
+STR/ROUTE,STR_ROUTE,Route,FALSE,Parcours,Tracciato,2,3
+STR/SECOND,STR_SECOND,2nd,FALSE,2ème,2°,3,2
+STR/SEL/CHAL,STR_SEL_CHAL,Select Challenge,FALSE,Choisir défi,Scegli sfida,3,2
+STR/SEL/MODE,STR_SEL_MODE,Select Mode,FALSE,Choisir mode,Scegli modalità,2,3
+STR/SEL/NEWCHAL,STR_SEL_NEWCHAL,Select New Challenge,FALSE,Choisir nouveau défi,Scegli nuova sfida,2,2
+STR/SEL/NEWCOURSE,STR_SEL_NEWCOURSE,Select New Route,FALSE,Choisir nouveau parcours,Scegli nuovo tracciato,2,2
+STR/SEL/NEW/TRIAL,STR_SEL_NEW_TRIAL,Select New Trial,FALSE,Choisir nouvel essai,Scegli nuova corsa,3,3
+STR/SEL/ROUTE,STR_SEL_ROUTE,Select Route,FALSE,Choisir parcours,Scegli tracciato,3,2
+STR/SINGLEPLAYER,STR_SINGLEPLAYER,Play,FALSE,Joueur unique,Un giocatore,2,3
+STR/ST/RACE,STR_ST_RACE,Start Race,FALSE,Commencer course,Inizia,2,2
+STR/SYNC,STR_SYNC,Synchronize,FALSE,Synchroniser,Sincronizza,2,3
+STR/S/MONO,STR_S_MONO,Mono,FALSE,Mono,Mono,2,3
+STR/S/SURROUND,STR_S_SURROUND,Stereo/Surround,FALSE,Stéréo/effet surround,Stereo/Surround,2,2
+STR/THANKS,STR_THANKS,Thanks for playing,FALSE,Merci d'avoir joué !,Grazie per aver giocato,3,2
+STR/THIRD,STR_THIRD,3rd,FALSE,3ème,3°,3,2
+STR/UNLOCK/CAR,STR_UNLOCK_CAR,You have unlocked the %s. ,FALSE,Vous avez débloqué la %s. ,Hai sbloccato la %s.,3,2
+STR/UNLOCK/CHAL,STR_UNLOCK_CHAL,You have unlocked the %s challenge. ,FALSE,Vous avez débloqué le défi %s.,Hai la sfida %s.,3,2
+STR/UNLOCK/NEWSKINS,STR_UNLOCK_NEWSKINS,You have unlocked new car skins.,FALSE,Vous avez débloqué de nouvelles apparences pour les voitures.,Hai sbloccato nuovi skin.,3,2
+STR/WAIT,STR_WAIT,Wait,FALSE,Attendre,Attendi,2,3
+STR/ACCEL,STR_ACCEL,ACCELERATION CHANGE,FALSE,ACCÉLÉRATION,ACCELERAZIONE CHANGE,2,2
+STR/ACCEPT,STR_ACCEPT,Accept,FALSE,Accepter,Accetta,3,2
+STR/APPLY,STR_APPLY,Apply CHANGE 2,TRUE,Appliquer CHANGE 1,Apply CHANGE 1,2,2
+STR/BRIGHTNESS,STR_BRIGHTNESS,Brightness CHANGE,FALSE,Luminosité,Luminosità,3,2
+STR/CANCEL,STR_CANCEL,Cancel,TRUE,Annuler,Annulla,2,2
+STR/CATCHUP,STR_CATCHUP,Catch Up,FALSE,Poursuite,Recupero,3,2
+STR/CHALDESC/PERF,STR_CHALDESC_PERF,Complete the route within the time limit without touching the walls more than twice.,FALSE,Terminez cette course dans les temps sans toucher plus de deux fois les murs. ,Completa la corsa entro il tempo limite senza toccare i muri più di due volte.,2,3
+STR/CHASE/1,STR_CHASE_1,Chase,FALSE,Poursuite,Inseguimento,3,3
+STR/CHECKP/1,STR_CHECKP_1,Checkpoint Challenge,FALSE,Défi points de contrôle,Sfida checkpoint,3,2
+STR/CHECKP/2,STR_CHECKP_2,Checkpoint Challenge 2,FALSE,Défi points de contrôle 2,Sfida checkpoint 2,2,2
+STR/CHICANE,STR_CHICANE,Octane,FALSE,Octane,Octane,2,3
+STR/CHOOSE/GAME,STR_CHOOSE_GAME,Choose A Game mode,FALSE,ADDD,Fixed Change,3,2
+STR/CONFIRM,STR_CONFIRM,Confirm,FALSE,Confirmer,Conferma,3,2
+STR/CONGRAT,STR_CONGRAT,Congratulations!,FALSE,Félicitations !,Complimenti!,2,3
+STR/CONTINUE,STR_CONTINUE,Continue,FALSE,Continuer,Continua,2,2
+STR/COPY,STR_COPY,Copy,FALSE,Copier,Copia,2,3
+STR/CP/RACE,STR_CP_RACE,Checkpoint Race,FALSE,Course à points de contrôle,Gara checkpoint,2,2
+STR/CREDITS,STR_CREDITS,Credits,FALSE,Crédits,Riconoscimenti,3,3
+STR/CRED/ARTS,STR_CRED_ARTS,Artists,FALSE,Artistes,Artisti,3,3
+STR/CRED/DIR,STR_CRED_DIR,Director,FALSE,Réalisateur,Direttore,2,2
+STR/CRED/FINCON,STR_CRED_FINCON,Financial Controller,FALSE,Contrôleur financier,Controllore finanziario,2,3
+STR/CRED/IPHONE/LEAD,STR_CRED_IPHONE_LEAD,iPhone Lead Programmer,FALSE,iPhone Lead Programmer,iPhone Lead Programmer,2,3
+STR/CRED/LEADTESTER,STR_CRED_LEADTESTER,Lead Tester,FALSE,Testeur en chef,Lead Tester,3,3
+STR/CRED/LPROG,STR_CRED_LPROG,Lead Programmer,FALSE,Programmeur principal,Primo programmatore,3,3
+STR/CRED/PROD,STR_CRED_PROD,Producer,FALSE,Producteur,Produttore,3,2
+STR/CRED/PROGS,STR_CRED_PROGS,Programmers,FALSE,Programmeurs,Programmatori,3,2
+STR/CRED/QAMAN,STR_CRED_QAMAN,QA Manager,FALSE,Directeur AQ,QA Manager,2,2
+STR/CRED/QA/TEAM,STR_CRED_QA_TEAM,QA Team,FALSE,Equipe AQ,QA Team,3,3
+STR/CRED/THX,STR_CRED_THX,Special Thanks,FALSE,Remerciements spéciaux,Si ringrazia in particolare,2,3
+STR/DELETE,STR_DELETE,Delete,FALSE,Supprimer,Cancella,3,3
+STR/EASY,STR_EASY,Easy,FALSE,Facile,Facile,2,2
+STR/EXIT,STR_EXIT,Exit,FALSE,Quitter,Esci,2,2
+STR/EXIT/2MM,STR_EXIT_2MM,Exit To Main Menu,FALSE,Retour menu principal,Torna al menu principale,2,3
+STR/FAIL/TO/LOAD,STR_FAIL_TO_LOAD,Failed to load game settings.,FALSE,Echec au chargement des paramètres du jeu.,Impossibile caricare le impostazioni.,2,2
+STR/FOURTH,STR_FOURTH,4th,FALSE,4ème,4°,3,3
+STR/GAMEOVER,STR_GAMEOVER,Game Over,FALSE,Partie terminée,Game Over,3,3
+STR/GARAGE,STR_GARAGE,Garage,FALSE,Garage,Garage,2,3
+STR/HOST/SYNC,STR_HOST_SYNC,Host,FALSE,Hôte,Host,3,3
+STR/HUD/COUNTDOWN/GO,STR_HUD_COUNTDOWN_GO,GO!,FALSE,PARTEZ !,VIA!,3,2
+STR/HUD/LAP,STR_HUD_LAP,LAP: %d/%d,FALSE,TOUR : %d/%d,GIRO: %d/%d,3,3
+STR/HUD/PERFECTION,STR_HUD_PERFECTION,PERFECTION,FALSE,PERFECTION,PERFEZIONE,3,2
+STR/HUD/SCORE,STR_HUD_SCORE,SCORE: %d,FALSE,POINTS : %d,PUNTI: %d,2,3
+STR/HUD/TARGET,STR_HUD_TARGET,TARGET,FALSE,BUT,OBIETTIVO,3,3
+STR/HUD/TOTAL/TIME,STR_HUD_TOTAL_TIME,TOTAL TIME: %d:%02d:%02d,FALSE,TEMPS TOTAL : %d:%02d:%02d,TEMPO TOTALE: %d:%02d:%02d,3,2
+STR/INFO,STR_INFO,Info,FALSE,Info,Info,2,3
+STR/LANG,STR_LANG,Language,FALSE,Langue,Lingua,3,3
+STR/LOAD/RACE,STR_LOAD_RACE,Start Race,FALSE,Charger course,Carica corsa,2,3
+STR/LOBBY,STR_LOBBY,Lobby,FALSE,Foyer,Ingresso,2,2
+STR/LOCKED/STAGE,STR_LOCKED_STAGE,???????,FALSE,???????,???????,3,3
+STR/L/ENGLISH,STR_L_ENGLISH,English,FALSE,English,English,3,3
+STR/L/FRENCH,STR_L_FRENCH,Français,FALSE,Français,Français,3,3
+STR/L/GERMAN,STR_L_GERMAN,Deutsch,FALSE,Deutsch,Deutsch,2,3
+STR/MAIN/VOL,STR_MAIN_VOL,Main Volume,FALSE,Volume principal,Volume generale,3,2
+STR/MANUAL,STR_MANUAL,Manual,FALSE,Manuelle,manuale,3,2
+STR/MEDIUM,STR_MEDIUM,Medium,FALSE,Moyenne,Normale,2,2
+STR/MIRROR,STR_MIRROR,Mirror,FALSE,Rétroviseur,Specchietto,3,2
+STR/MSG/BTH/DISCONNECT,STR_MSG_BTH_DISCONNECT,Could not connect to game. The host has left.,FALSE,Impossible de se connecter au jeu. L'hôte est parti. ,Connessione non avvenuta: host ha lasciato la partita.,2,2
+STR/MSG/DEFAULT,STR_MSG_DEFAULT,This will return all settings to default.,FALSE,Cette commande fait revenir aux paramètres par défaut.,Verranno usate le impostazioni predefinite.,2,2
+STR/MSG/DEL/FAILED,STR_MSG_DEL_FAILED,Failed to delete replay.,FALSE,Impossible de supprimer ralenti.,Impossibile cancellare replay.,2,2
+STR/MSG/INSUFF/SPACE,STR_MSG_INSUFF_SPACE,"There is insufficient space on your device to create the save file for this game, in order to save your settings must have %dKB free.Continue without save?",FALSE,Il n'y a pas assez d'espace sur votre Gizmondo pour créer un fichier d'enregistrement pour ce jeu. Il faut au moins %dKo.n\Désirez-vous continuer sans enregistrer ?,"Sul tuo Gizmondo non c'è spazio per creare dati di gioco. Per salvare, il tuo disco GT deve avere %dKB liberi.\nContinui senza salvare?",2,3
+STR/MSG/LOW/BATTERY,STR_MSG_LOW_BATTERY,Battery level is low.,FALSE,Pile en baisse.,La batteria è scarica.,3,2
+STR/MSG/QUIT/CONFIRM,STR_MSG_QUIT_CONFIRM,Are you sure you want to quit?,FALSE,Etes-vous sûr(e) de vouloir quitter ?,Vuoi uscire?,3,3
+STR/MSG/SAVED/SETT,STR_MSG_SAVED_SETT,Settings saved.,FALSE,Paramètres enregistrés.,Impostazioni salvate.,3,2
+STR/NO,STR_NO,No,FALSE,Non,No,2,3
+STR/NOT/CONNECT,STR_NOT_CONNECT,Not Connected,FALSE,Non connecté,Non connesso,2,2
+STR/NO/REPLAYS,STR_NO_REPLAYS,No replays found.,FALSE,No replays found.,No replays found.,2,3
+STR/OFF,STR_OFF,Off,FALSE,Désactivé,Off,2,3
+STR/OK,STR_OK,Ok,FALSE,OK,Ok,2,2
+STR/PERFECT/LAP,STR_PERFECT_LAP,Perfect Lap,FALSE,Tour parfait,Giro perfetto,2,3
+STR/PERF/2,STR_PERF_2,Perfection 2,FALSE,Perfection 2,Perfezione 2,3,3
+STR/PLACE,STR_PLACE,PLACE,FALSE,PLACE,POSTO,3,2
+STR/PREV/SKIN,STR_PREV_SKIN,Prev Skin,FALSE,Apparence précédente,Skin prec.,3,3
+STR/PROCEED,STR_PROCEED,Proceed,FALSE,Continuer,Procedi,3,2
+STR/PROG/SAVED,STR_PROG_SAVED,Your progress has been saved.,FALSE,Votre progression est sauvegardée,I progressi di gioco sono stati salvati,2,2
+STR/REC,STR_REC,Record,FALSE,Record,Record,3,3
+STR/RECORD,STR_RECORD,NEW RECORD!,FALSE,NOUVEAU RECORD !,NUOVO RECORD!,2,2
+STR/REFRESH,STR_REFRESH,Refresh,FALSE,Actualiser,Aggiorna,3,2
+STR/REPLAYS,STR_REPLAYS,Replays,FALSE,Ralentis,Replay,2,3
+STR/RESTART/REPLAY,STR_RESTART_REPLAY,Restart Replay,FALSE,Recommmencer le ralenti,Rivedi replay,3,3
+STR/RESUME,STR_RESUME,Resume,FALSE,Reprendre,Riprendi,3,3
+STR/RETRY,STR_RETRY,Retry,FALSE,Ré-essayer,Riprova,3,3
+STR/RP/COMPLETE,STR_RP_COMPLETE,Replay Complete,FALSE,Ralenti terminé,Replay completo,3,3
+STR/SEARCH,STR_SEARCH,Search,FALSE,Rechercher,Cerca,2,2
+STR/SEARCHING,STR_SEARCHING,Searching,FALSE,Recherche en cours,Ricerca,3,2
+STR/SEL/CAR,STR_SEL_CAR,Select Car,FALSE,Choisir voiture,Scegli vettura,3,2
+STR/SEL/GEAR,STR_SEL_GEAR,Select Transmission,FALSE,Choisir transmission,Scegli trasmissione,3,2
+STR/TOPSPEED,STR_TOPSPEED,TOP SPEED,FALSE,VITESSE MAX.,VELOCITÀ MAX,3,2
+STR/TRANS,STR_TRANS,Transmission,FALSE,Transmission,Trasmissione,2,3
+STR/UNLOCK,STR_UNLOCK,You have unlocked %s.,FALSE,Vous avez débloqué %s.,Hai sbloccato %s.,3,2
+STR/UNLOCK/PERF,STR_UNLOCK_PERF,You have unlocked the Arcade Perfection mode.,FALSE,Vous avez débloqué le mode Arcade Perfection.,Hai sbloccato la modalità Arcade Perfezione,3,3
+STR/UNLOCK/SKIN,STR_UNLOCK_SKIN,You have unlocked skin %s for the %s.,FALSE,Vous avez débloqué l'apparence %s pour la %s.,Hai sbloccato lo skin %s per la %s.,3,3
+STR/WAIT/FOR/PLAY,STR_WAIT_FOR_PLAY,Waiting for other players,FALSE,Attente d'autres joueurs,Aspettando altri giocatori,2,2
+STR/YES,STR_YES,Yes,FALSE,Oui,Sì,2,3
+STR/GAME/MODES,STR_GAME_MODES,Game Modes,FALSE,,,1,1
+STR/HOW/TO/PLAY,STR_HOW_TO_PLAY,How to Play,FALSE,,,1,1
+STR/INSTRUCTIONS,STR_INSTRUCTIONS,Instructions,FALSE,,,1,1
+STR/OTHER/FEAT,STR_OTHER_FEAT,Other Features,FALSE,,,1,1
