@@ -1,11 +1,11 @@
-package strategy;
+package factory;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import template.PageTemplate;
 
-public class LoginPage extends PageTemplate implements LoginStrategy {
+public class LoginPage extends PageTemplate {
 
     public LoginPage(WebDriver webDriver) {
         initElements(webDriver);
@@ -28,9 +28,9 @@ public class LoginPage extends PageTemplate implements LoginStrategy {
         return flashMessage.getText().split("\\n")[0].trim();
     }
 
-    public void loginAs(User user) {
-        this.usernameInput.sendKeys(user.getUsername());
-        this.passwordInput.sendKeys(user.getPassword());
+    public void loginAs(String username, String password) {
+        this.usernameInput.sendKeys(username);
+        this.passwordInput.sendKeys(password);
         this.loginButton.click();
     }
 }
