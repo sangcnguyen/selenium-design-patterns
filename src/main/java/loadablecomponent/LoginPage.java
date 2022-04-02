@@ -10,7 +10,7 @@ import org.testng.Assert;
 import java.time.Duration;
 
 public class LoginPage extends LoadableComponent<LoginPage> {
-    private final String baseURL = "https://the-internet.herokuapp.com/login";
+    private final String BASE_URL = "https://the-internet.herokuapp.com/login";
     private WebDriver driver;
 
     @FindBy(id = "username")
@@ -32,7 +32,7 @@ public class LoginPage extends LoadableComponent<LoginPage> {
 
     @Override
     protected void load() {
-        driver.get(baseURL);
+        driver.get(BASE_URL);
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5000));
     }
 
