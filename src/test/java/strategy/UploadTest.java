@@ -25,7 +25,6 @@ public class UploadTest {
         }
     }
 
-
     @Test
     public void verifyUploadFileFromLocalMachine() {
         UploadPage uploadPage = new UploadPage(webDriver, new UploadLocalFile());

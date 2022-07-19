@@ -22,7 +22,7 @@ public class UploadPage {
     }
 
     public void uploadFile(String fileName) {
-        String absolutePathOfFile = System.getProperty("user.dir") + "/src/main/resources/" + fileName;
+        String absolutePathOfFile = System.getProperty("user.dir") + "/src/test/resources/" + fileName;
         uploadStrategy.uploadFile(absolutePathOfFile);
     }
 
