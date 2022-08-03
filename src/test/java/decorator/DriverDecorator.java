@@ -36,4 +36,13 @@ public class DriverDecorator extends Driver {
         return driver.findElements(locator);
     }
 
+    @Override
+    public void waitForAjax() {
+        driver.waitForAjax();
+    }
+
+    @Override
+    public void waitUntilPageLoadsCompletely() {
+        driver.waitUntilPageLoadsCompletely();
+    }
 }

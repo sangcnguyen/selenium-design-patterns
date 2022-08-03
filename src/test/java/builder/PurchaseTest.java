@@ -18,7 +18,6 @@ public class PurchaseTest extends TestTemplate {
         purchasePage.goToPage();
         purchasePage.enterBillingInfor(billingWithRequireFields);
         purchasePage.submitForm();
-
     }
 
     @Test

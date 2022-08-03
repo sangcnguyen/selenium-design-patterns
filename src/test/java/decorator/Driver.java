@@ -1,7 +1,6 @@
 package decorator;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.remote.Browser;
 
 import java.util.List;
 
@@ -15,4 +14,8 @@ public abstract class Driver {
     public abstract Element findElement(By locator);
 
     public abstract List<Element> findElements(By locator);
+
+    public abstract void waitForAjax();
+
+    public abstract void waitUntilPageLoadsCompletely();
 }

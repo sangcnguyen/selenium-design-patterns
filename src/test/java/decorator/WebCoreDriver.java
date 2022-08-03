@@ -2,6 +2,7 @@ package decorator;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -37,7 +38,6 @@ public class WebCoreDriver extends Driver {
     public Element findElement(By locator) {
         var nativeWebElement = webDriverWait.until(ExpectedConditions.presenceOfElementLocated(locator));
         Element element = new WebCoreElement(webDriver, nativeWebElement, locator);
-        // If we use a log decorator.
         return new LoggingElement(element);
     }
 
@@ -51,5 +51,17 @@ public class WebCoreDriver extends Driver {
             elements.add(logElement);
         }
         return elements;
+    }
+
+    @Override
+    public void waitForAjax() {
+        JavascriptExecutor javascriptExecutor = (JavascriptExecutor) webDriver;
+        webDriverWait.until(d -> (Boolean) javascriptExecutor.executeScript("return window.jQuery != undefined && jQuery.active == 0"));
+    }
+
+    @Override
+    public void waitUntilPageLoadsCompletely() {
+        JavascriptExecutor javascriptExecutor = (JavascriptExecutor) webDriver;
+        webDriverWait.until(d -> javascriptExecutor.executeScript("return document.readyState").toString().equals("complete"));
     }
 }
