@@ -20,23 +20,8 @@ public class WebCoreElement extends Element {
     }
 
     @Override
-    public By getBy() {
-        return by;
-    }
-
-    @Override
     public String getText() {
         return webElement.getText();
-    }
-
-    @Override
-    public Boolean isEnabled() {
-        return webElement.isEnabled();
-    }
-
-    @Override
-    public Boolean isDisplayed() {
-        return webElement.isDisplayed();
     }
 
     @Override

@@ -10,23 +10,8 @@ public class ElementDecorator extends Element {
     }
 
     @Override
-    public By getBy() {
-        return element.getBy();
-    }
-
-    @Override
     public String getText() {
         return element.getText();
-    }
-
-    @Override
-    public Boolean isEnabled() {
-        return element.isEnabled();
-    }
-
-    @Override
-    public Boolean isDisplayed() {
-        return element.isDisplayed();
     }
 
     @Override
