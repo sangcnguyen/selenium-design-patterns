@@ -33,7 +33,7 @@ public class ProductPurchaseTests {
 
         cartPage.increaseProductQuantity(2);
 
-        Assert.assertEquals("114.00€", cartPage.getTotal());
+        Assert.assertEquals( cartPage.getTotal(),"114.00€");
 
         cartPage.clickProceedToCheckout();
 

@@ -1,7 +1,5 @@
 package decorator;
 
-import org.openqa.selenium.By;
-
 public class ElementDecorator extends Element {
     protected final Element element;
 

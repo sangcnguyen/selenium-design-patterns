@@ -24,21 +24,21 @@ public class LoggingDriver extends DriverDecorator {
 
     @Override
     public void goToUrl(String url) {
-        System.out.print(String.format("Go to url = %s", url));
+        System.out.printf("Go to url = %s", url);
         System.out.print("\n");
         driver.goToUrl(url);
     }
 
     @Override
     public Element findElement(By locator) {
-        System.out.print(String.format("Find element = %s", locator));
+        System.out.printf("Find element = %s", locator);
         System.out.print("\n");
         return driver.findElement(locator);
     }
 
     @Override
     public List<Element> findElements(By locator) {
-        System.out.print(String.format("Find elements = %s", locator));
+        System.out.printf("Find elements = %s", locator);
         System.out.print("\n");
         return driver.findElements(locator);
     }

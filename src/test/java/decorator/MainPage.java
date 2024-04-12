@@ -4,7 +4,7 @@ import org.openqa.selenium.By;
 
 public class MainPage {
     private final Driver driver;
-    private final String url = "http://demos.bellatrix.solutions/";
+    private final String BASE_URL = "http://demos.bellatrix.solutions/";
 
     public MainPage(Driver driver) {
         this.driver = driver;
@@ -19,7 +19,7 @@ public class MainPage {
     }
 
     public void addRocketToShoppingCart() {
-        driver.goToUrl(url);
+        driver.goToUrl(BASE_URL);
         addToCartFalcon9().click();
         viewCartButton().click();
     }

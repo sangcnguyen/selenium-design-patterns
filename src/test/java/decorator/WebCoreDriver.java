@@ -1,11 +1,12 @@
 package decorator;
 
-import io.github.bonigarcia.wdm.WebDriverManager;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -19,8 +20,9 @@ public class WebCoreDriver extends Driver {
 
     @Override
     public void start() {
-        WebDriverManager.chromedriver().setup();
-        webDriver = new ChromeDriver();
+        ChromeOptions options = new ChromeOptions();
+        options.addArguments("--remote-allow-origins=*");
+        webDriver = new ChromeDriver(options);
         webDriverWait = new WebDriverWait(webDriver, Duration.ofSeconds(30));
     }
 
