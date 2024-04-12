@@ -94,17 +94,17 @@ public class PurchasePage {
         skipEnterValueIfNull(nameOnCardInput, nameOnCard);
     }
 
-    public void enterBillingInfor(BillingInfor billingInfor) {
-        enterName(billingInfor.getName());
-        enterAddress(billingInfor.getAddress());
-        enterCity(billingInfor.getCity());
-        enterState(billingInfor.getState());
-        enterZipCode(billingInfor.getZipCode());
-        enterCardType(billingInfor.getCardType());
-        enterCardNumber(billingInfor.getCardNumber());
-        enterCardMonth(billingInfor.getCardMonth());
-        enterCardYear(billingInfor.getCardYear());
-        enterNameOnCard(billingInfor.getNameOnCard());
+    public void enterBillingInfo(BillingInfo billingInfo) {
+        enterName(billingInfo.getName());
+        enterAddress(billingInfo.getAddress());
+        enterCity(billingInfo.getCity());
+        enterState(billingInfo.getState());
+        enterZipCode(billingInfo.getZipCode());
+        enterCardType(billingInfo.getCardType());
+        enterCardNumber(billingInfo.getCardNumber());
+        enterCardMonth(billingInfo.getCardMonth());
+        enterCardYear(billingInfo.getCardYear());
+        enterNameOnCard(billingInfo.getNameOnCard());
     }
 
     private void skipEnterValueIfNull(WebElement element, String value) {

@@ -1,6 +1,6 @@
 package builder;
 
-public class BillingInfor {
+public class BillingInfo {
     // require params
     private final String name;
     private final String address;
@@ -14,7 +14,7 @@ public class BillingInfor {
     private final String cardYear;
     private final String nameOnCard;
 
-    private BillingInfor(BillingInformationBuilder builder) {
+    private BillingInfo(BillingInformationBuilder builder) {
         this.name = builder.name;
         this.address = builder.address;
         this.city = builder.city;
@@ -120,13 +120,13 @@ public class BillingInfor {
             return this;
         }
 
-        public BillingInfor build() {
+        public BillingInfo build() {
             validateRequireField();
-            return new BillingInfor(this);
+            return new BillingInfo(this);
         }
 
         private void validateRequireField() {
-            if (name.length() == 0 || address.length() == 0 || city.length() == 0) {
+            if (name.isEmpty() || address.isEmpty() || city.isEmpty()) {
                 throw new IllegalArgumentException("Can't be empty string");
             }
         }
