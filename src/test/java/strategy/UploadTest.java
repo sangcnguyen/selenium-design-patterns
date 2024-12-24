@@ -1,32 +1,17 @@
 package strategy;
 
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+import template.TestTemplate;
 
-public class UploadTest {
+public class UploadTest extends TestTemplate {
 
-  public WebDriver webDriver;
   String fileTest = "Fastlane.csv";
-
-  @BeforeMethod
-  public void beforeMethod() {
-    webDriver = new ChromeDriver();
-  }
-
-  @AfterMethod
-  public void afterMethod() {
-    if (webDriver != null) {
-      webDriver.quit();
-    }
-  }
+  UploadPage uploadPage;
 
   @Test
   public void verifyUploadFileFromLocalMachine() {
-    UploadPage uploadPage = new UploadPage(webDriver, new UploadLocalFile());
+    uploadPage = new UploadPage(webDriver, new UploadLocalFile());
     uploadPage.goToPage();
     uploadPage.uploadFile(fileTest);
     Assert.assertEquals(uploadPage.getMsgUploadSuccess(), fileTest);
@@ -34,7 +19,7 @@ public class UploadTest {
 
   @Test
   public void verifyUploadByDraggingAndDroppingFile() {
-    UploadPage uploadPage = new UploadPage(webDriver, new DragDropFile(webDriver));
+    uploadPage = new UploadPage(webDriver, new DragDropFile(webDriver));
     uploadPage.goToPage();
     uploadPage.uploadFile(fileTest);
     Assert.assertEquals(uploadPage.getMsgUploadSuccess(), fileTest);

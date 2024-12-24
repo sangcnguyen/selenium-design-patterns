@@ -6,8 +6,8 @@ import org.openqa.selenium.support.PageFactory;
 import java.time.Duration;
 
 public class UploadPage {
-    private WebDriver driver;
-    private UploadStrategy uploadStrategy;
+    private final WebDriver driver;
+    private final UploadStrategy uploadStrategy;
 
     public UploadPage(WebDriver driver, UploadStrategy uploadStrategy) {
         this.driver = driver;
